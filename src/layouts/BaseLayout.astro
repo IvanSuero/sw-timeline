@@ -1,0 +1,20 @@
+---
+const {pageTitle} = Astro.props;
+---
+<html lang="en" class="bg-white font-serif overscroll-none overflow-scroll">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Star Wars timeline" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Star Wars Timeline | {pageTitle}</title>
+  </head>
+  <body class="mx-auto m-0 w-screen h-full leading-normal overflow-x-hidden" style="background-image: url('/fondo.webp'); opacity: 95%">
+    {/*<Header />*/}
+    <main class="flex flex-col items-center justify-start py-20">
+      <slot />
+    </main>
+    {/*<Footer /> */}
+  </body>
+</html>

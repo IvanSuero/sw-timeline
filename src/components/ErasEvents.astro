@@ -1,0 +1,12 @@
+---
+import { Image } from 'astro:assets'
+const {era, events} = Astro.props
+---
+
+<div class="items-end grid grid-cols-3 gap-x-8 w-full gap-y-2">
+  {
+    events.map((event, index) => (
+          <Image src={event.image} alt={event.title} width="500" height="500" />
+    ))
+  }
+</div>

@@ -1,0 +1,48 @@
+{
+  "data": [
+    { "label": "Dawn of the Jedi", "image": "/era1.webp", "url": "dawn-of-the-jedi", "events": [] },
+    { "label": "The Old Republic", "image": "/era2.webp", "url": "the-old-republic", "events": [] },
+    { "label": "The High Republic", "image": "/era3.webp", "url": "the-high-republic", "events": [
+      { "title": "Young Jedi Adventures", "image": "/event1.webp" },
+      { "title": "The Acolyte", "image": "/event2.webp" }
+    ]  },
+    { "label": "Fall of the Jedi", "image": "/era4.webp", "url": "fall-of-the-jedi", "events": [
+      { "title": "The Phantom Menace", "image": "/event3.webp" },
+      { "title": "Tales of the Jedi", "image": "/event4.webp" },
+      { "title": "Attack of the Clones", "image": "/event5.webp" },
+      { "title": "The Clone Wars", "image": "/event6.webp" },
+      { "title": "Revenge of the Sith", "image": "/event7.webp" }
+    ]  },
+    { "label": "Reign of the Empire", "image": "/era5.webp", "url": "reign-of-the-empire", "events": [
+      { "title": "Tales of the Empire", "image": "/event8.webp" },
+      { "title": "The Bad Batch", "image": "/event9.webp" },
+      { "title": "Jedi Fallen Order", "image": "/event10.webp" },
+      { "title": "Solo: A Star Wars Story", "image": "/event11.webp" },
+      { "title": "Obi-Wan Kenobi", "image": "/event12.webp" },
+      { "title": "Jedi Survivor", "image": "/event13.webp" },
+      { "title": "Andor", "image": "/event14.webp" },
+      { "title": "Rebels", "image": "/event15.webp" },
+      { "title": "Vader Inmortal", "image": "/event16.webp" },
+      { "title": "Rogue One", "image": "/event17.webp" }
+    ]  },
+    { "label": "Age of the Rebelion", "image": "/era6.webp", "url": "age-of-the-rebelion", "events": [
+      { "title": "A New Hope", "image": "/event18.webp" },
+      { "title": "The Empire Strikes Back", "image": "/event19.webp" },
+      { "title": "Return of the Jedi", "image": "/event20.webp" },
+      { "title": "Battlefront II", "image": "/event21.webp" },
+      { "title": "Star Wars Squadrons", "image": "/event22.webp" }
+    ]  },
+    { "label": "The New Republic", "image": "/era7.webp", "url": "the-new-republic", "events": [
+      { "title": "The Mandalorian", "image": "/event23.webp" },
+      { "title": "The book of Boba Fett", "image": "/event24.webp" },
+      { "title": "Ashoka", "image": "/event25.webp" }
+    ] },
+    { "label": "Rise of the First Order", "image": "/era8.webp", "url": "rise-of-the-first-order", "events": [
+      { "title": "Star Wars Resistance", "image": "/event26.webp" },
+      { "title": "The Force Awakens", "image": "/event27.webp" },
+      { "title": "The Last Jedi", "image": "/event28.webp" },
+      { "title": "The Rise of Skywalker", "image": "/event29.webp" }
+    ]  },
+    { "label": "The New Jedi Order", "image": "/era9.webp", "url": "the-new-jedi-order", "events": []  }
+  ]
+}

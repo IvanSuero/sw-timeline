@@ -1,0 +1,48 @@
+{
+  "data": [
+    { "era": "Dawn of the Jedi", "events": [] },
+    { "era": "The Old Republic", "events": [] },
+    { "era": "The High Republic", "events": [
+      { "title": "Young Jedi Adventures", "image": "/event1.webp" },
+      { "title": "The Acolyte", "image": "/event2.webp" }
+    ] },
+    { "era": "Fall of the Jedi", "events": [
+      { "title": "The Phantom Menace", "image": "/event3.webp" },
+      { "title": "Tales of the Jedi", "image": "/event4.webp" },
+      { "title": "Attack of the Clones", "image": "/event5.webp" },
+      { "title": "The Clone Wars", "image": "/event6.webp" },
+      { "title": "Revenge of the Sith", "image": "/event7.webp" }
+    ] },
+    { "era": "Reign of the Empire", "events": [
+      { "title": "Tales of the Empire", "image": "/event8.webp" },
+      { "title": "The Bad Batch", "image": "/event9.webp" },
+      { "title": "Jedi Fallen Order", "image": "/event10.webp" },
+      { "title": "Solo: A Star Wars Story", "image": "/event11.webp" },
+      { "title": "Obi-Wan Kenobi", "image": "/event12.webp" },
+      { "title": "Jedi Survivor", "image": "/event13.webp" },
+      { "title": "Andor", "image": "/event14.webp" },
+      { "title": "Rebels", "image": "/event15.webp" },
+      { "title": "Vader Inmortal", "image": "/event16.webp" },
+      { "title": "Rogue One", "image": "/event17.webp" }
+    ] },
+    { "era": "Age of the Rebelion", "events": [
+      { "title": "A New Hope", "image": "/event18.webp" },
+      { "title": "The Empire Strikes Back", "image": "/event19.webp" },
+      { "title": "Return of the Jedi", "image": "/event20.webp" },
+      { "title": "Battlefront II", "image": "/event21.webp" },
+      { "title": "Star Wars Squadrons", "image": "/event22.webp" }
+    ] },
+    { "era": "The New Republic", "events": [
+      { "title": "The Mandalorian", "image": "/event23.webp" },
+      { "title": "The book of Boba Fett", "image": "/event24.webp" },
+      { "title": "Ashoka", "image": "/event25.webp" }
+    ] },
+    { "era": "Rise of the First Order", "events": [
+      { "title": "Star Wars Resistance", "image": "/event26.webp" },
+      { "title": "The Force Awakens", "image": "/event27.webp" },
+      { "title": "The Last Jedi", "image": "/event28.webp" },
+      { "title": "The Rise of Skywalker", "image": "/event29.webp" }
+    ] },
+    { "era": "The New Jedi Order", "events": [] }
+  ]
+}

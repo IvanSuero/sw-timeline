@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import ErasCards from "../components/ErasCards.astro"
+import EraEvents from "../components/ErasEvents.astro"
+const pageTitle = "Home"
+---
+
+<BaseLayout pageTitle={pageTitle}>
+	<div class="w-4/5 flex flex-col gap-24">
+		<h2 class="text-5xl font-bold text-center text-white">Star Wars Eras</h2>
+		<ErasCards />
+	</div>
+</BaseLayout>
