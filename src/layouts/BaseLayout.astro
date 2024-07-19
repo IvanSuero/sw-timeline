@@ -15,6 +15,34 @@ const {pageTitle} = Astro.props;
     <main class="flex flex-col items-center justify-start py-20">
       <slot />
     </main>
-    {/*<Footer /> */}
+    <footer>
+      <p class="text-center text-sm text-white pb-4">
+        &copy; {new Date().getFullYear()} Star Wars Timeline | Made by{'Ivan'} | All right are owned by Lucasfilm Ltd.
+      </p>
+    </footer>
   </body>
+
+  <style>
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #030303;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #030303;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 3px solid #ffffff;
+  }
+  </style>
 </html>
