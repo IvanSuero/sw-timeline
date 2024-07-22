@@ -18,8 +18,11 @@ const {pageTitle} = Astro.props;
       <slot />
     </main>
     <footer>
+      <p class="text-center text-sm text-white pb-2">
+        &copy; {new Date().getFullYear()} Star Wars Timeline | Made by {'Ivan'}
+      </p>
       <p class="text-center text-sm text-white pb-4">
-        &copy; {new Date().getFullYear()} Star Wars Timeline | Made by{'Ivan'} | All right are owned by Lucasfilm Ltd.
+        All rights are owned by Lucasfilm Ltd.
       </p>
     </footer>
     <SpeedInsights />
